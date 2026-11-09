@@ -9,3 +9,10 @@ Append-only. Newest entries at the bottom. Heading format:
 
 ## [2026-11-09] decision | Public GitHub repo
 - Remote: https://github.com/carlosvl/Drone-Rebuild (public; parentheses not allowed in repo names).
+
+## [2026-11-09] decision | Rebuild architecture
+- ESP32 + ESP-Drone firmware + iOS app over Wi-Fi; Arduino Zero unused.
+
+## [2026-11-09] ingest | Hardware photos, firmware, iOS app
+- Photos in `docs/photos/`; stock hardware page.
+- ESP-Drone submodule + `sdkconfig.drone`; CRTP link and iOS app pages.

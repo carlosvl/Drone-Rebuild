@@ -1,0 +1,4 @@
+# Drone(Rebuild) overrides, layered on esp-drone/sdkconfig.defaults (see firmware/README.md).
+# Stock motors are coreless ~7x20/8x20 mm; 720 is the closest ESP-Drone profile.
+CONFIG_MOTOR_BRUSHED_720=y
+CONFIG_WIFI_BASE_SSID="DRONE-REBUILD"

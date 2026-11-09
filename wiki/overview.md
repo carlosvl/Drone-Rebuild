@@ -8,10 +8,13 @@ updated: 2026-11-09
 
 # Overview
 
-Rebuild of an old-school drone using modern electronics. Project started
-2026-11-09; no hardware, airframe or parts list recorded yet.
+Rebuild of a toy quadcopter ([stock hardware](hardware/stock-drone.md)) with an ESP32
+flight controller running ESP-Drone, flown from an iPhone app.
+See [architecture](decisions/architecture.md).
 
-## Open questions
+## Status (2026-11-09)
 
-- Which drone/airframe is being rebuilt, and what original electronics it has.
-- Target stack (flight controller, ESCs, motors, radio, battery).
+- Done: firmware submodule + config, iOS app with tested packet encoder.
+- Next (hands-on): confirm ESP32 model, battery and motor size; buy parts; bench-wire
+  with props off; install ESP-IDF and flash.
+- Later: battery telemetry in the app, FPV camera.

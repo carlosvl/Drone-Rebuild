@@ -1,0 +1,38 @@
+name: DroneRemote
+options:
+  bundleIdPrefix: org.carlosvl
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  DroneRemote:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: Drone Remote
+        UILaunchScreen: {}
+        UIRequiresFullScreen: true
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        NSLocalNetworkUsageDescription: Sends flight commands to the drone over its Wi-Fi network.
+    settings:
+      base:
+        SWIFT_VERSION: "6.0"
+        GENERATE_INFOPLIST_FILE: YES
+  DroneRemoteTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests]
+    dependencies:
+      - target: DroneRemote
+    settings:
+      base:
+        SWIFT_VERSION: "6.0"
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  DroneRemote:
+    build:
+      targets: {DroneRemote: all, DroneRemoteTests: [test]}
+    test:
+      targets: [DroneRemoteTests]
