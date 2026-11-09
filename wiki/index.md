@@ -10,6 +10,7 @@ This knowledge base is maintained by Claude; the rules are in
 ## Hardware
 
 - [Stock drone hardware](hardware/stock-drone.md) — DRO-Q04R board, brushed motors, W9824 camera
+- [ESP32 dev board](hardware/esp32-devkit.md) — classic ESP32 DevKit, power from 1S via LDO to 3V3
 
 ## Components
 

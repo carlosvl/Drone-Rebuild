@@ -15,6 +15,7 @@ See [architecture](decisions/architecture.md).
 ## Status (2026-11-09)
 
 - Done: firmware submodule + config, iOS app with tested packet encoder.
-- Next (hands-on): confirm ESP32 model, battery and motor size; buy parts; bench-wire
+- ESP32 confirmed as classic ESP32 ([dev board](hardware/esp32-devkit.md)).
+- Next (hands-on): confirm battery and motor size; buy parts; bench-wire
   with props off; install ESP-IDF and flash.
 - Later: battery telemetry in the app, FPV camera.

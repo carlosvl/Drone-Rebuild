@@ -16,3 +16,6 @@ Append-only. Newest entries at the bottom. Heading format:
 ## [2026-11-09] ingest | Hardware photos, firmware, iOS app
 - Photos in `docs/photos/`; stock hardware page.
 - ESP-Drone submodule + `sdkconfig.drone`; CRTP link and iOS app pages.
+
+## [2026-11-09] ingest | ESP32 dev board identified
+- Classic ESP32 38-pin DevKit (USB-C, CP2102); ESPlane V1 build confirmed; power via LDO to 3V3.

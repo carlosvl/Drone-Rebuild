@@ -22,4 +22,4 @@ Toy quadcopter, white plastic frame, prop guards. Identified from photos only.
   sensor, V+/GND/I-O pads. Out of scope until after first hover.
 - **Battery:** not yet checked; assumed 1S LiPo.
 
-Spare boards on hand: an ESP32 (exact model unconfirmed) and an Arduino Zero (unused).
+Spare boards on hand: an [ESP32 DevKit](esp32-devkit.md) (classic ESP32, confirmed) and an Arduino Zero (unused).
