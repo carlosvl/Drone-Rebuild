@@ -19,3 +19,6 @@ Append-only. Newest entries at the bottom. Heading format:
 
 ## [2026-11-09] ingest | ESP32 dev board identified
 - Classic ESP32 38-pin DevKit (USB-C, CP2102); ESPlane V1 build confirmed; power via LDO to 3V3.
+
+## [2026-11-09] ingest | System diagrams
+- `docs/diagrams.md`: 5 Mermaid diagrams + motor layout; facts from mixer, PM and Kconfig sources.

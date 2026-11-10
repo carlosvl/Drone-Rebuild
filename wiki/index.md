@@ -17,6 +17,7 @@ This knowledge base is maintained by Claude; the rules are in
 - [Firmware (ESP-Drone)](components/firmware.md) — submodule, ESP32 pin map, overrides
 - [CRTP over Wi-Fi link](components/crtp-link.md) — UDP packet format, thrust lock, signs
 - [iOS app (DroneRemote)](components/ios-app.md) — SwiftUI remote, limits, failsafe
+- [System diagrams](components/system-diagrams.md) — overview, pin map, power, motor channel, control cycle
 
 ## Decisions
 
